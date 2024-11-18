@@ -1,0 +1,441 @@
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.what-wrapper{
+    margin-top: 200px;
+    width: 90vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: last baseline; */
+    gap: 50px;
+}
+
+.what-wrapper .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.what-wrapper .title .p1{
+    color:  #1e2e3d;
+    border-bottom: 4px  #1e2e3d solid;  
+}
+.what-wrapper .what{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    gap: 45px;
+}
+.what-wrapper  #img1{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.what-wrapper  .what-head{
+    /* border: 3px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.what-wrapper  .what-head h4{
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.what-wrapper  .what-head .p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.con-wrapper{
+    margin-top: 150px;
+    width: 90vw;
+    /* border: dashed; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.con-wrapper .main-con{
+    /* border: dashed; */
+    width: 45%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 20px;
+    padding-top: 13px;
+}
+
+.con-wrapper .main-con #name{
+    width: 70%;
+    height: 7%;
+}
+.con-wrapper .main-con #name::placeholder{
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+.con-wrapper .main-con label{
+    color: #1e2e3d;
+    /* font-weight: bold; */
+    font-size: 1em;
+}
+.con-wrapper .main-con #text{
+    width: 90%;
+    height: 10vw;
+    border-radius: 5px;
+} 
+
+.con-wrapper .main-con #text::placeholder{
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.con-wrapper .main-con .button{
+    width: 40%;
+    height: 70px;
+    background-color: #1e2e3d;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+}
+.con-wrapper .sec-con{
+    width: 40%;
+    height: auto;
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 20px;
+    /* justify-content: center; */
+}
+.con-wrapper .sec-con .main-item-sec-con{
+    width: 70%;
+    height: 16vw;
+    /* border: #4e4bee dashed 5px; */
+   background-color: #1e2e3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    gap: 5px;
+    /* justify-content: center; */
+}
+
+.con-wrapper .sec-con .main-item-sec-con #phone1{
+    font-size: 40px;
+    color: #1e2e3d;
+    background-color: white;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    padding-top: 23px;
+    border-radius: 300px;
+    margin-top: 20px;
+}
+.con-wrapper .sec-con .main-item-sec-con h3{
+    color: white;
+    font-size: 17px;
+}
+.con-wrapper .sec-con .main-item-sec-con span{
+    width: 100%;
+    /* border: solid; */
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    gap: 5px;
+}
+.con-wrapper .sec-con .main-item-sec-con span .num{
+    border-bottom: solid white 2px;
+    gap: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+   
+    width: 80%;
+    margin-left: 30px;
+}
+
+
+
+
+@media (max-width:500px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+        margin-bottom: 130px;
+    }
+    .what-wrapper{
+        margin-top: 130px;
+        width: 90vw;
+        height: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: last baseline;
+        gap: 30px;
+    }
+    
+    .what-wrapper .title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    .what-wrapper .title .p1{
+        color:  #1e2e3d;
+        border-bottom: 4px  #1e2e3d solid;  
+    }
+    .what-wrapper .what{
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        /* gap: 80px; */
+    }
+    .what-wrapper  #img1{
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .what-wrapper  .what-head{
+        /* border: 3px solid red; */
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .what-wrapper  .what-head h4{
+        font-size: 1.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .what-wrapper  .what-head .p2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;
+    }
+    .con-wrapper{
+        margin-top: 150px;
+        width: 90vw;
+        gap: 150px;
+        /* border: dashed; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .con-wrapper .main-con{
+        /* border: dashed; */
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #fafafa;
+        /* justify-content: space-between; */
+        gap: 10px;
+        padding-left: 15px;
+        padding-top: 13px;
+    }
+    
+    .con-wrapper .main-con #name{
+        width: 70%;
+        height: 40px;
+    }
+    .con-wrapper .main-con #name::placeholder{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .con-wrapper .main-con label{
+        color: #1e2e3d;
+        /* font-weight: bold; */
+        font-size: 1em;
+    }
+    .con-wrapper .main-con #text{
+        width: 90%;
+        height: 10vw;
+        border-radius: 5px;
+    } 
+    
+    .con-wrapper .main-con #text::placeholder{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    .con-wrapper .main-con .button{
+        width: 50%;
+        height: 50px;
+        background-color: #1e2e3d;
+        font-size: 17px;
+        color: white;
+        border-radius: 10px;
+        border-style: none;
+        margin: 10px;
+    }
+    .con-wrapper .sec-con{
+        width: 95%;
+        height: auto;
+        /* border: red solid 2px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        background-color: #fafafa;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 30px;
+        /* justify-content: center; */
+    }
+    .con-wrapper .sec-con .main-item-sec-con{
+        width: 80%;
+        height: 100%;
+        /* border: #4e4bee dashed 5px; */
+       background-color: #1e2e3d;
+        display: flex;
+        flex-direction: column;
+       
+        border-radius: 15px;
+        gap: 5px;
+        padding: 7px;
+        /* justify-content: center; */
+    }
+    
+    .con-wrapper .sec-con .main-item-sec-con #phone1{
+        font-size: 15px;
+        color: #1e2e3d;
+        background-color: white;
+        width: 20%;
+        height: 70%;
+        text-align: center;
+        /* padding-top: 23px; */
+        border-radius: 100%;
+        /* margin-top: 20px; */
+        padding-bottom: 10px;
+      
+    }
+    .con-wrapper .sec-con .main-item-sec-con h3{
+        color: white;
+        font-size: 17px;
+    }
+    .con-wrapper .sec-con .main-item-sec-con span{
+        width: 100%;
+        /* border: solid; */
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        /* gap: 5px; */
+    }
+    .con-wrapper .sec-con .main-item-sec-con span .num{
+        border-bottom: solid white 2px;
+        /* gap: 10px; */
+        font-size: 11px;
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+
+    #sign-up-main-wrapper{
+        /* border: red solid; */
+       width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* padding: 20px; */
+        /* background-color: #fafafa; */
+        /* margin-right: 1000px; */
+    }
+    
+    #sign-up-main-wrapper .remember{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #sign-up-main-wrapper .remember h3{
+        color: #1e2e3d;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    #sign-up-main-wrapper p a{
+        text-decoration: none;
+        color: #1e2e3d;
+    }
+    
+    #sign-up-main-wrapper .sign-up-input-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border: solid gold; */
+        width: 70%;
+        height: auto;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    #sign-up-main-wrapper .sign-up-input-wrapper .sign-up-input{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 65px;
+        padding: 10px;
+       
+       
+        /* gap: 15px; */
+    }
+    
+    #sign-up-main-wrapper .sign-up-input-wrapper .sign-up-input i{
+        padding: 15px;
+    }
+    #sign-up-main-wrapper .sign-up-input-wrapper .sign-up-input input{
+        border-radius: 5px;
+        border: #1e2e3d solid 1px;
+        background-color: #fafafa;
+    }
+    
+    #sign-up-main-wrapper .sign-up-input-wrapper .sign-up-input input::placeholder{
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    #sign-up-main-wrapper .create {
+        width: 40vw;
+        height: 50px;
+        background-color: #050b62;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        margin: 10px;
+        box-shadow: none;
+    }
+}
+

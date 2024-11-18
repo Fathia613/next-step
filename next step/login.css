@@ -1,0 +1,201 @@
+body{
+    width: 100vw;
+    height: auto;
+    display: block;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1e2e3d;
+    /* overflow: hidden; */
+}
+
+form{
+    /* border: solid 1px red; */
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+form .head-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form .head-wrapper h1{
+    font-size: 35px;
+    margin-top: 20px;  
+}
+
+form p{
+    font-size: 17px;
+}
+form p a{
+    text-decoration: none;
+    color: #01115a;
+}
+
+form .input-wrapper{
+    /* border: solid brown 3px; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form .input-wrapper .user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: #1e2e3d solid 1px;
+    padding: 0 10px 5px 10px;
+}
+form .input-wrapper .user i{
+    font-size: 20px;
+    color: #1e2e3d;
+    color: var(--myBlue);
+    
+}
+form .input-wrapper .user input{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+
+}
+form .input-wrapper .user input:hover{
+    border: none;
+    height: 40px;
+    border-style: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+button{
+    width: 60%;
+    height: 50px;
+    border-style: none;
+    background-color: #01115a;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+@media (max-width:500px){
+    body{
+        width: 100vw;
+        height: 100%;
+        justify-content: start;
+        align-items: center;
+    
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #1e2e3d;
+        /* overflow: hidden; */
+    }
+    
+    form{
+        /* border: solid 1px red; */
+        position: relative;
+        width: 90vw;
+        height: auto;
+        gap: 30px;
+        padding: 15px;
+        background-color: #fafafa;
+        border-radius: 10px;
+        margin-right: 13%;
+    }
+    
+    form .head-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    form .head-wrapper h1{
+        font-size: 35px;
+        margin-top: 20px;  
+    }
+    
+    form p{
+        font-size: 17px;
+    }
+    form p a{
+        text-decoration: none;
+        color: #01115a;
+    }
+    
+    form .input-wrapper{
+        /* border: solid brown 3px; */
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    form .input-wrapper .user{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        border: #1e2e3d solid 1px;
+        padding: 0 10px 5px 10px;
+    }
+    form .input-wrapper .user i{
+        font-size: 20px;
+        color: #1e2e3d;
+        color: var(--myBlue);
+        
+    }
+    form .input-wrapper .user input{
+        height: 40px;
+        padding-left: 10px;
+        font-size: 17px;
+        border-radius: 5px;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+    
+    }
+    form .input-wrapper .user input:hover{
+        border: none;
+        height: 40px;
+        border-style: none;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+    }
+    button{
+        width: 60%;
+        height: 50px;
+        border-style: none;
+        background-color: #01115a;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+}
